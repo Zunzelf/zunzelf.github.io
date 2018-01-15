@@ -1,26 +1,37 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+# Jekyll-Bootstrap-3
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+Easily publish Bootstrap 3 powered Jekyll sites.  
+Fork of the well known jekyll-bootstrap (v0.3.0). Original project is [here](https://github.com/plusjade/jekyll-bootstrap).  
+The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages.  
 
-## Getting Started
+## Usage
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+### 1. Create a Repo
+- Go to <https://github.com> and create a new repository named *USERNAME.github.io*  
 
-## Bugs and Issues
+### 2. Install Jekyll-Bootstrap-3  
+<pre>
+  <code>
+    $ git clone https://github.com/dbtek/jekyll-bootstrap-3 USERNAME.github.io
+    $ cd USERNAME.github.com
+    $ git remote set-url origin git@github.com:USERNAME/USERNAME.github.io.git
+    $ git push origin master  
+  </code>
+</pre>  
+### 3. Enjoy !
+- After giving 10 mins to GitHub of course.  
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+For original project's usage and documentation please see: <http://jekyllbootstrap.com>  
 
-## Creator
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+### Themes
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+Quickly install and use lovely themes with Jekyll Bootstrap 3. Visit [theme gallery](http://jekyll-bootstrap-3.github.io/preview).
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+## License
 
-## Copyright and License
+[MIT](http://opensource.org/licenses/MIT)
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/jekyll-bootstrap-3/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

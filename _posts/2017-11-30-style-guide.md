@@ -1,10 +1,10 @@
 ---
-layout: post
-cover: 'assets/images/shiva.jpg'
 title: Style Guide
-date: 2017-11-30 04:00:00
+layout: post
+cover: assets/images/shiva.jpg
+date: '2017-11-30 11:00:00 +0700'
 tags: guide
-author: Author
+author: zunzelf
 ---
 
 <p>This shows how you can use html styling to achieve your hopes.</p>

@@ -3,7 +3,7 @@ title: Hello World :D
 author: zunzelf
 layout: post
 date: '2018-01-19 16:39:00'
-tags: daily post, hello
+tags: daily-post hello
 published: true
 ---
 

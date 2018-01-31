@@ -36,7 +36,9 @@ $(document).ready(function(){
     {{ content }}
 
     {% comment %}
-        {% include analytics.html %}
+        {% if jekyll.environment == 'production' %}
+            {% include analytics.html %}
+        {% endif %}
     {% endcomment %}
   </body>
 </html>

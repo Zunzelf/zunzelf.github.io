@@ -34,11 +34,12 @@ $(document).ready(function(){
     {% include header.html %}
 
     {{ content }}
-
+    {% include analytics.html %}
     {% comment %}
+<!--
         {% if jekyll.environment == 'production' %}
-            {% include analytics.html %}
         {% endif %}
+-->
     {% endcomment %}
   </body>
 </html>

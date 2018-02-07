@@ -18,9 +18,7 @@ about: about
 contact: about
 privacy-policy: about
 
-#permalink: /:title
-
-
+permalink: /:title
 collections:
     arts:
         output: true

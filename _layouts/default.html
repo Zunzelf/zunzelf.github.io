@@ -34,12 +34,10 @@ $(document).ready(function(){
     {% include header.html %}
 
     {{ content }}
-    {% include analytics.html %}
+      {% if site.url contains 'zunzelf.github.io' %}
+        {% include analytics.html %}
+      {% endif %}
     {% comment %}
-<!--
-        {% if jekyll.environment == 'production' %}
-        {% endif %}
--->
     {% endcomment %}
   </body>
 </html>

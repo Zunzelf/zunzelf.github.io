@@ -5,7 +5,7 @@ cover: assets/images/radhakrishna.jpg
 #logo: assets/images/logo.png #sementara di hilangin sampai nemu yg bener
 favicon: assets/images/od-logo.jpeg
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
-url: "http://zunzelf.github.io/" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
@@ -18,9 +18,16 @@ about: about
 contact: about
 privacy-policy: about
 
+#permalink: /:title
 
-permalink: /:title
 
+collections:
+    arts:
+        output: true
+        permalink: /arts/:path
+    story:
+        output: true
+        permalink: /arts/:collection/:path
 
 # Google Analytics
 analytics_id: ""
